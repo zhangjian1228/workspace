@@ -1,0 +1,24 @@
+<h1>Dashboard#index</h1>
+<p>Find me in app/views/dashboard/index.html.erb</p>
+
+<table>
+  <tr>
+    <td>ID</td>
+    <td>body</td> 
+    <td>created_at</td>
+  </tr>
+  <% @tweets.each do |tweet| %> 
+  <tr>
+    <td><%= tweet.t_id %></td>
+    <td><%= tweet.body %></td> 
+    <td><%= tweet.t_created_at %></td>
+  </tr>
+  <% end %>
+</table>
+
+<hr>
+<ul>
+    <% @tweets.each do |tweet| %>
+    <li><%= tweet.body %> | <%= tweet.mappings.map {|url| url.url}.join(', ') %></li>
+    <% end %>
+</ul>
