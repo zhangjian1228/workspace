@@ -11,7 +11,8 @@ Notes:
 
 2. The SQlite3 database is used and to store the results.
 
-3. The Bonus quesition has not been done yet.
+3. The Bonus quesition has not been done yet, as the time is a bit tight for me.
 
-4. You can use cloud9 development tool to clone the project and see the results directly.
+4. You can use cloud9 development tool (https://c9.io) to clone the project and see the results directly.
+
 
