@@ -11,5 +11,7 @@ Notes:
 
 2. The SQlite3 database is used and to store the results.
 
-3. The Bonus quesition has not done yet.
+3. The Bonus quesition has not been done yet.
+
+4. You can use cloud9 development tool to clone the project and see the results directly.
 
